@@ -1,0 +1,14 @@
+{
+  // BigInventory
+  // Envanterin temel 42 slotu oyunun icine sabit yazili; oyun envanteri SADECE
+  // keselerle (pouch) buyutur. FloatValue1 = kesenin ekledigi slot sayisi.
+  // Vanilla: her kese +3. Burada her kese +100.
+  // Dort kesenin hepsi tasindiginda: 42 + 400 = 442 slot (en buyuk sandik 432).
+  // Keseler ust uste eklenir: Small + Medium + Large + Giant ayri ayri sayilir.
+  // (8xStorageInvBags ayni satirlari 24 yapiyor; bu mod ondan sonra yuklendigi
+  //  icin bu degerler gecerli olur.)
+  "AdditionalInventory_001": { "FloatValue1": 100.0 },
+  "AdditionalInventory_002": { "FloatValue1": 100.0 },
+  "AdditionalInventory_003": { "FloatValue1": 100.0 },
+  "AdditionalInventory_004": { "FloatValue1": 100.0 }
+}

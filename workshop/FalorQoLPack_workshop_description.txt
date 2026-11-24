@@ -1,0 +1,67 @@
+[h1]Falor's QoL Pack[/h1]
+Twelve quality-of-life mods in one subscription. Every mod has its own page in [b]Esc > Mod Options[/b] with an on/off switch, so you keep only what you want. Texts are in English, with Turkish translations.
+
+Most of the mods run on the [b]world host[/b] and then work for everyone in the world.
+
+[h2]What is inside[/h2]
+[list]
+[*][b]Unlock All Waypoints[/b] - every fast-travel statue and watch tower is unlocked without going there. It takes a few seconds and you do not move. Automatic, or press F11.
+[*][b]Unlock All Technology[/b] - every technology (normal and Ancient) is unlocked, no points or level needed.
+[*][b]Unlock All Blueprints[/b] - furniture that needs a blueprint item (candlesticks, lanterns, statues, flags, laboratory desk and chair) and gear that needs a schematic (every rarity of weapons, armor, hats and accessories) can be built and crafted without owning the item. Two separate switches. Nothing is added to your inventory and nothing is written to the save; you still need the materials.
+[*][b]Boss Respawn[/b] - set how many minutes until a defeated field boss can appear again, and how long until dungeon bosses are back.
+[*][b]Big Inventory[/b] - every player gets the four pouches and each pouch adds 100 slots: 442 inventory slots in total.
+[*][b]Global Base Storage[/b] - in the build menu (B), left-click a structure you lack materials for: the missing materials come from your bases' chests into your inventory.
+[*][b]Pickup Boost[/b] - items picked up from the ground by hand give more (Nightstar Sand, mushrooms, berries, stones, logs). The multiplier is a setting.
+[*][b]Fast Breeding[/b] - set the time for one egg at the Breeding Farm (normally 300 seconds).
+[*][b]Speed Boost[/b] - speed multipliers for the player and for mounts. Every player should use the same values, otherwise the game pulls the speed back.
+[*][b]Time of Day[/b] - type !day, !night or !time 15 in chat, or press F8 / F9. The time changes for everyone.
+[*][b]Teleport to Player[/b] - press F7 to teleport next to another player.
+[*][b]Salvage With Any Pal[/b] - any Pal that swims counts as a water Pal for salvaging floating wrecks.
+[/list]
+
+[h2]Data tweaks (always on)[/h2]
+[list]
+[*]Fainted Pals recover almost instantly in the Palbox (normally 10 minutes).
+[*]Grappling guns: twice the range and a 1 second cooldown.
+[*]Medicine recipes give 100 items per craft for the same materials.
+[*]The Breeding Farm also accepts Red Berries, not only cake.
+[/list]
+
+[h2]Required items[/h2]
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3625223587]UE4SS Experimental (Palworld)[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3625280368]PalSchema[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3771664251]Mod Options Framework[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3841945149]Passive Transfer[/url] (the thirteenth mod of the pack, published on its own)
+[/list]
+Install them from the Steam Workshop only. Do not keep a manually installed UE4SS next to the Workshop one (for example a dwmapi.dll or a ue4ss folder under Pal\Binaries\Win64). Two UE4SS copies load at once and the game crashes at startup.
+
+[h2]Install[/h2]
+[olist]
+[*]Subscribe to this pack and to the required items.
+[*]Start Palworld, open Options > Mod Management, enable all of them and save. The game restarts.
+[*]Load your world. Open Esc > Mod Options to switch mods on or off and to change values and keys.
+[/olist]
+
+[h2]Please read[/h2]
+[list]
+[*]Made and tested on Palworld 1.0 (Steam, Windows) by the host of a co-op world. Dedicated servers are not supported.
+[*]For the mods that run on the host, the other players do not need the pack. Speed Boost, Salvage With Any Pal, Teleport to Player, Global Base Storage and Unlock All Blueprints act on your own character or menu, so each player who wants them needs the pack too.
+[*]Unlocks, pouches and passive changes are written into the save. Turning a mod off or removing the pack does not undo them. Back up your save first if you are unsure.
+[*]Do not use it together with another mod that changes the same thing (for example another inventory-size or pickup-multiplier mod).
+[*]Less tested parts: how the mods behave for a guest who joins someone else's world, Unlock All Blueprints for a guest (the host probably needs the pack too), the respawn time of random dungeons, and Red Berries on a Breeding Farm that was built before installing the pack.
+[/list]
+
+[h2]Credits[/h2]
+Settings pages: Mod Options Framework by Elv (MIT license). Its two SDK files are included as its documentation asks.
+UE4SS Experimental (Palworld) and PalSchema by Oak.
+
+[hr][/hr]
+[h1]Türkçe[/h1]
+On iki kolaylık modu, tek abonelikle. Her modun Esc > Mod Options altında kendi sayfası ve aç/kapat ayarı var. Modların çoğu dünyanın host'unda çalışır ve dünyadaki herkes için geçerli olur.
+[list]
+[*]Tüm Waypoint'leri Aç, Tüm Teknolojiyi Aç, Tüm Planlar Açık (mobilya planları ve silah/zırh şemaları eşya olmadan; iki ayrı düğme), Boss Yeniden Doğma süresi, Büyük Envanter (442 yuva), Üslerin Ortak Deposu, Toplama Çarpanı, Hızlı Üreme, Hız Çarpanı, Gün Saati (!day / !night), Oyuncuya Işınlan (F7), Her Pal ile Enkaz Toplama.
+[*]Veri ayarları: Palbox'ta anında iyileşme, daha uzun menzilli ve hızlı kanca, ilaç tariflerinde 100'lü üretim, üreme çiftliğinde Red Berries.
+[*]Açılan kilitler ve keseler kayda yazılır; paketi kaldırmak bunları geri almaz.
+[*]Dedicated server desteklenmez.
+[/list]

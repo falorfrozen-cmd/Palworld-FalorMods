@@ -1,0 +1,28 @@
+BaseWorkerMultiplier - Ustlerde daha fazla calisan Pal (varsayilan 3x)
+=====================================================================
+
+GEREKSINIM
+- UE4SS yuklu olmali. En kolayi: Steam Workshop'tan "UE4SS Experimental (Palworld)"
+  modunu abone ol ve oyunun mod menusunden etkinlestir.
+- PalSchema yuklu olmali (Steam Workshop: "PalSchema"). Limiti oyun tabloyu yuklerken
+  degistiren kisim bu; yoksa limit cogu zaman degismez.
+- ILK ACILISTA mod PalSchema dosyasini olusturur. Oyunu BIR KEZ kapatip tekrar ac.
+
+KURULUM
+1. Zip'ten cikan "BaseWorkerMultiplier" klasorunu su klasore kopyala:
+   ...\Steam\steamapps\common\Palworld\Mods\NativeMods\UE4SS\Mods\
+   (Sonuc: ...\UE4SS\Mods\BaseWorkerMultiplier\Scripts\main.lua olmali)
+2. Klasorun icinde "enabled.txt" oldugundan emin ol (mod bununla acilir).
+3. Oyunu ac, bir kayit yukle, Pal kutusundaki calisan sayisina bak.
+
+AYAR
+- BaseWorkerMultiplier\Scripts\config.lua icinde "Multiplier = 3" degerini degistir.
+- Degisiklikten sonra oyunu yeniden baslat.
+
+COK OYUNCULU
+- Limiti dunyayi barindiran (host / sunucu) uygular. Co-op'ta host'ta yuklu olmasi yeterli,
+  ama herkeste ayni olmasi onerilir.
+
+SORUN OLURSA
+- ...\UE4SS\UE4SS.log dosyasinda "[BaseWorkerMultiplier]" satirlarina bak.
+- Sayi yine dusuk kaliyorsa Dunya Ayarlari'ndan "Ustteki maks. calisan Pal" ayarini yukselt.

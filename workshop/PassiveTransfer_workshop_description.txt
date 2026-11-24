@@ -1,0 +1,62 @@
+[h1]Passive Transfer[/h1]
+Move one passive skill from a Pal in your party to another Pal in your party. The giver loses the passive, so nothing is duplicated.
+
+[h2]How it works[/h2]
+[list]
+[*]Press [b]F5[/b] in a world to open the panel (the key can be changed).
+[*]Pick the giver, the passive, then the receiver, and press [b]Transfer[/b].
+[*]If the receiver already has 4 passives, you pick one of them and it goes back to the giver (a swap).
+[*]Every step is read back from the game. If a step fails, the earlier steps are undone.
+[*]Panel language: English or Turkish. It follows the game language, or you can pick one.
+[/list]
+
+[h2]Required items[/h2]
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3625223587]UE4SS Experimental (Palworld)[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3771664251]Mod Options Framework[/url] (settings page: Esc > Mod Options)
+[/list]
+PalSchema is not needed.
+
+Install them from the Steam Workshop only. Do not keep a manually installed UE4SS next to the Workshop one (for example a dwmapi.dll or a ue4ss folder under Pal\Binaries\Win64). Two UE4SS copies load at once and the game crashes at startup.
+
+[h2]Install[/h2]
+[olist]
+[*]Subscribe to this mod and to the two required items.
+[*]Start Palworld, open Options > Mod Management, enable all three and save. The game restarts.
+[*]Load a world you host and press F5.
+[/olist]
+
+[h2]Settings[/h2]
+Esc > Mod Options > Passive Transfer
+[list]
+[*]Enabled
+[*]Open / close key (default F5; a key change applies after restarting the game)
+[*]Panel language (Auto / English / Türkçe)
+[/list]
+
+[h2]Limits - please read[/h2]
+[list]
+[*][b]World host only.[/b] It works in single player and for the host of a co-op world. A guest in someone else's world sees "Only the world host can use this." Dedicated servers are not supported.
+[*]Both Pals must be in your party (the 5 party slots).
+[*]Every passive can be moved, including rare ones. There is no cost and no cooldown.
+[*]Changes are written into the save. Removing the mod does not undo transfers you already made. Back up your save first if you are unsure.
+[/list]
+
+[h2]Tested[/h2]
+Palworld 1.0 on Steam (Windows), as world host: transfer, swap with a full receiver, and the saved result after a restart.
+Not tested: dedicated servers.
+
+[h2]Credits[/h2]
+Settings page: Mod Options Framework by Elv (MIT license). Its two SDK files are included as its documentation asks.
+UE4SS Experimental (Palworld) by Oak.
+
+[hr][/hr]
+[h1]Türkçe[/h1]
+Takımındaki bir Pal'ın pasifini takımındaki başka bir Pal'a taşır. Veren Pal o pasifi kaybeder, yani hiçbir şey çoğalmaz.
+[list]
+[*]Dünyadayken F5 paneli açar (tuş değiştirilebilir).
+[*]Vereni, pasifi ve alanı seç, Aktar'a bas.
+[*]Alan Pal'da zaten 4 pasif varsa onlardan birini seçersin; o pasif verene geçer (takas).
+[*]Yalnızca dünyanın host'unda çalışır. Başkasının dünyasına katılan oyuncu kullanamaz.
+[*]Değişiklikler kayda yazılır; modu kaldırmak yapılan aktarımları geri almaz.
+[/list]

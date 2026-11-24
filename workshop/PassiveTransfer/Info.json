@@ -1,0 +1,26 @@
+{
+  "ModName": "Passive Transfer",
+  "PackageName": "PassiveTransfer",
+  "Thumbnail": "thumbnail.png",
+  "Version": "1.0.0",
+  "DebugMode": false,
+  "MinRevision": 100619,
+  "Author": "Falor",
+  "Dependencies": [
+    "UE4SSExperimentalPW",
+    "PalModOptions"
+  ],
+  "Tags": [
+    "UE4SS",
+    "Gameplay",
+    "User Interface"
+  ],
+  "InstallRule": [
+    {
+      "Type": "Lua",
+      "Targets": [
+        "./Scripts"
+      ]
+    }
+  ]
+}

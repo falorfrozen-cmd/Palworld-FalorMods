@@ -1,0 +1,24 @@
+{
+  // MedicineCrafting100x
+  // Medicine version of "100x Palsphere and Ammo Crafting": one craft gives
+  // 100 items, materials stay the same.
+  // Rows taken from the game's DT_ItemRecipeDataTable (read in game
+  // 2026-11-17): every recipe whose product is a Medicine (TypeB 60), Drug
+  // (TypeB 61) or Pal revive item (TypeB 43). All vanilla Product_Count = 1.
+  "DT_ItemRecipeDataTable": {
+    "Herbs":               { "Product_Count": 100 },
+    "Medicines":           { "Product_Count": 100 },
+    "LuxuryMedicines":     { "Product_Count": 100 },
+    "MindControlDrug":     { "Product_Count": 100 },
+    "Potion_Low":          { "Product_Count": 100 },
+    "Potion":              { "Product_Count": 100 },
+    "Potion_High":         { "Product_Count": 100 },
+    "Potion_Extreme":      { "Product_Count": 100 },
+    "Opium":               { "Product_Count": 100 },
+    "Narcotic":            { "Product_Count": 100 },
+    "MushroomJuice":       { "Product_Count": 100 },
+    "StatusPointResetSan": { "Product_Count": 100 },
+    "Supplement":          { "Product_Count": 100 },
+    "PalRevive":           { "Product_Count": 100 }
+  }
+}

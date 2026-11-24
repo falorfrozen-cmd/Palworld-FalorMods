@@ -1,0 +1,9 @@
+{
+  // InstantPalRevive
+  // Bayilan Pal'ler Pal kutusuna (Palbox) konunca neredeyse aninda iyilesir.
+  // PalBoxReviveTime DAKIKA cinsindendir (float). Vanilla: 10 dakika.
+  // 0.01 dakika = ~0.6 saniye. Tam 0 kullanilmaz (bolme hatasi riski).
+  "BP_PalGameSetting_C": {
+    "PalBoxReviveTime": 0.01
+  }
+}

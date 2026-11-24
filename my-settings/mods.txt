@@ -1,0 +1,29 @@
+CheatManagerEnablerMod : 0
+ConsoleCommandsMod : 0
+ConsoleEnablerMod : 0
+SplitScreenMod : 0
+LineTraceMod : 0
+BPML_GenericFunctions : 1
+BPModLoaderMod : 1
+
+
+
+
+AlwaysWinFishing : 1
+AutoHatch : 1
+ExpandedWorldOptions : 1
+ExtendedBaseRange : 1
+MapUnlocker : 1
+PalModOptions : 1
+PalSchema : 1
+RemoteFastTravel : 1
+SmartPalFeeding : 1
+StutterFixPack : 1
+BaseWorkerMultiplier : 0
+DevDump : 0
+DevConsole : 0
+CoopPlus : 1
+AutoLoadWorld : 1
+PassiveTransfer : 1
+; Built-in keybinds, do not move up!
+Keybinds : 1

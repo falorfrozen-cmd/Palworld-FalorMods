@@ -1,0 +1,35 @@
+{
+  "ModName": "Falor's QoL Pack",
+  "PackageName": "FalorQoLPack",
+  "Thumbnail": "thumbnail.png",
+  "Version": "1.0.1",
+  "DebugMode": false,
+  "MinRevision": 100619,
+  "Author": "Falor",
+  "Dependencies": [
+    "UE4SSExperimentalPW",
+    "PalModOptions",
+    "PalSchema",
+    "PassiveTransfer"
+  ],
+  "Tags": [
+    "UE4SS",
+    "PalSchema",
+    "Gameplay",
+    "Utilities"
+  ],
+  "InstallRule": [
+    {
+      "Type": "UE4SS",
+      "Targets": [
+        "./Mods"
+      ]
+    },
+    {
+      "Type": "PalSchema",
+      "Targets": [
+        "./PalSchema/"
+      ]
+    }
+  ]
+}

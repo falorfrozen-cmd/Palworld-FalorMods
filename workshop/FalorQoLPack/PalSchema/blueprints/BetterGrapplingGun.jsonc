@@ -1,0 +1,11 @@
+{
+  // BetterGrapplingGun
+  // Tum kanca silahi seviyeleri: menzil 2 kat, bekleme suresi 1 saniye.
+  // Vanilla menzil (cm): 2100 / 2400 / 2700 / 3000 / 3300
+  // Vanilla bekleme (sn): 12 / 10 / 8 / 6 / 4
+  "BP_GrapplingGun_C":   { "CableMaxLength": 4200.0, "CoolDownTime": 1.0 },
+  "BP_GrapplingGun_2_C": { "CableMaxLength": 4800.0, "CoolDownTime": 1.0 },
+  "BP_GrapplingGun_3_C": { "CableMaxLength": 5400.0, "CoolDownTime": 1.0 },
+  "BP_GrapplingGun_4_C": { "CableMaxLength": 6000.0, "CoolDownTime": 1.0 },
+  "BP_GrapplingGun_5_C": { "CableMaxLength": 6600.0, "CoolDownTime": 1.0 }
+}

@@ -1,0 +1,21 @@
+{
+  // FastBreeding (PalSchema kismi)
+  // Breeding ciftligi: Cake'lerin yaninda Red Berries ("Berries") de kabul edilir,
+  // bir ureme 1 saniye surer (vanilla 300 sn).
+  // Oyunda dogrulandi (15.11.2026): bilesenin adi "BreedFarmParameter",
+  // vanilla kabul listesi Cake, Cake02, Cake03, Cake04, Cake05. Ciftligin modeli
+  // ve kutusunun izin listesi bu listeden kurulur.
+  "BP_BuildObject_BreedFarm_C": {
+    "BreedFarmParameter": {
+      "BreedRequiredRealTime": 1.0,
+      "TargetItemIds": [
+        { "Key": "Cake" },
+        { "Key": "Cake02" },
+        { "Key": "Cake03" },
+        { "Key": "Cake04" },
+        { "Key": "Cake05" },
+        { "Key": "Berries" }
+      ]
+    }
+  }
+}
